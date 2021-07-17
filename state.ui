@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>State</class>
+ <widget class="QWidget" name="State">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>432</width>
+    <height>291</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Zombie Guts&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt; state &gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Zombie Guts&quot;;</string>
+   </property>
+   <property name="text">
+    <string>score</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="scorelabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>200</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Zombie Guts&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Zombie Guts&quot;;</string>
+   </property>
+   <property name="text">
+    <string>current earning</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="celabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>230</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Zombie Guts&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="unlock">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>260</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Zombie Guts&quot;;</string>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tcelabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Zombie Guts&quot;;</string>
+   </property>
+   <property name="text">
+    <string>unlock </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>-6</x>
+     <y>-10</y>
+     <width>471</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/joker-movie-2019-1.jpg</normaloff>../ax/joker-movie-2019-1.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>500</width>
+     <height>500</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>pushButton</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>scorelabel</zorder>
+  <zorder>label_4</zorder>
+  <zorder>celabel</zorder>
+  <zorder>unlock</zorder>
+  <zorder>tcelabel</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

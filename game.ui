@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Game</class>
+ <widget class="QWidget" name="Game">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>504</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="UpdateClock1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/TheJoker_005.webp</normaloff>../ax/TheJoker_005.webp</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upgrade1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 8pt &quot;Arial&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Upgrade</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UpdateClock2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/TheJoker_003.webp</normaloff>../ax/TheJoker_003.webp</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>70</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upgrade2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>90</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 8pt &quot;Arial&quot;;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Upgrade</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UpdateClock3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/TheJoker_007.webp</normaloff>../ax/TheJoker_007.webp</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upgrade3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 8pt &quot;Arial&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Upgrade</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UpdateClock4">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>140</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/TheJoker_008.webp</normaloff>../ax/TheJoker_008.webp</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upgrade4">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>210</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 8pt &quot;Arial&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Upgrade</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UpdateClock5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/TheJoker_011.webp</normaloff>../ax/TheJoker_011.webp</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upgrade5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 8pt &quot;Arial&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Upgrade</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UpdateClock6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>260</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/TheJoker_010.webp</normaloff>../ax/TheJoker_010.webp</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upgrade6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 10pt &quot;Zombie Guts&quot;;
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Upgrade</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UpdateClock7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/TheJoker_014.webp</normaloff>../ax/TheJoker_014.webp</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upgrade7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>450</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 8pt &quot;Arial&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Upgrade</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UpdateClock8">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>380</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/TheJoker_009.webp</normaloff>../ax/TheJoker_009.webp</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Upgrade8">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>450</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 8pt &quot;Arial&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Upgrade</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Money">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+font: 14pt &quot;Zombie Guts&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Money</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Level1">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>90</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Level</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Level2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>90</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Level</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Level3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>210</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Level</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Level4">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>210</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Level</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Level5">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>340</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Level</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Level6">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>330</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Level</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Level7">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>450</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Level</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Level8">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>450</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Level</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar1">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>20</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar4">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>140</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar5">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>260</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar6">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>260</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar7">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>380</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar8">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>380</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Timer1">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>60</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Timer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Timer2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>60</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Timer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Timer3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>180</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Timer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Timer4">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>170</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Timer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Timer5">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>300</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Timer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Timer6">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>300</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Timer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Timer7">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>420</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Timer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Timer8">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>420</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : rgb(255, 255, 255);
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Timer</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>400</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>40</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>160</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>280</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton6">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>280</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton8">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>400</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="gostate">
+   <property name="geometry">
+    <rect>
+     <x>574</x>
+     <y>30</y>
+     <width>61</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 10pt &quot;Zombie Guts&quot;;
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>STATE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>-60</y>
+     <width>731</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ax/667557.jpg</normaloff>../ax/667557.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>1000</width>
+     <height>1000</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>400</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : black ;
+background-color :rgb(209, 144, 255);
+border-radius : 8px;
+border : 2px solid black ;
+font: 10pt &quot;Zombie Guts&quot;;
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+  <zorder>pushButton</zorder>
+  <zorder>UpdateClock1</zorder>
+  <zorder>Upgrade1</zorder>
+  <zorder>UpdateClock2</zorder>
+  <zorder>Upgrade2</zorder>
+  <zorder>UpdateClock3</zorder>
+  <zorder>Upgrade3</zorder>
+  <zorder>UpdateClock4</zorder>
+  <zorder>Upgrade4</zorder>
+  <zorder>UpdateClock5</zorder>
+  <zorder>Upgrade5</zorder>
+  <zorder>UpdateClock6</zorder>
+  <zorder>Upgrade6</zorder>
+  <zorder>UpdateClock7</zorder>
+  <zorder>Upgrade7</zorder>
+  <zorder>UpdateClock8</zorder>
+  <zorder>Upgrade8</zorder>
+  <zorder>Money</zorder>
+  <zorder>Level1</zorder>
+  <zorder>Level2</zorder>
+  <zorder>Level3</zorder>
+  <zorder>Level4</zorder>
+  <zorder>Level5</zorder>
+  <zorder>Level6</zorder>
+  <zorder>Level7</zorder>
+  <zorder>Level8</zorder>
+  <zorder>progressBar1</zorder>
+  <zorder>progressBar2</zorder>
+  <zorder>progressBar3</zorder>
+  <zorder>progressBar4</zorder>
+  <zorder>progressBar5</zorder>
+  <zorder>progressBar6</zorder>
+  <zorder>progressBar7</zorder>
+  <zorder>progressBar8</zorder>
+  <zorder>Timer1</zorder>
+  <zorder>Timer2</zorder>
+  <zorder>Timer3</zorder>
+  <zorder>Timer4</zorder>
+  <zorder>Timer5</zorder>
+  <zorder>Timer6</zorder>
+  <zorder>Timer7</zorder>
+  <zorder>Timer8</zorder>
+  <zorder>radioButton7</zorder>
+  <zorder>radioButton2</zorder>
+  <zorder>radioButton3</zorder>
+  <zorder>radioButton4</zorder>
+  <zorder>radioButton5</zorder>
+  <zorder>radioButton6</zorder>
+  <zorder>radioButton8</zorder>
+  <zorder>gostate</zorder>
+  <zorder>home</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

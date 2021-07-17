@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>286</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.35 rgba(255, 188, 188, 80), stop:0.4 rgba(255, 162, 162, 80), stop:0.425 rgba(255, 132, 132, 156), stop:0.44 rgba(252, 128, 128, 80), stop:1 rgba(255, 255, 255, 0));
+background-color :rgb(251, 190, 255);
+
+
+font: 8pt &quot;Arial&quot;;
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="Game">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : black ;
+background-color :rgb(161, 0, 0);
+font: 12pt &quot;Zombie Guts&quot;;
+border-radius : 8px;
+border : 2px solid black ;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>PLAY </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exite">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : black ;
+background-color :rgb(161, 0, 0);
+font: 12pt &quot;Zombie Guts&quot;;
+border-radius : 8px;
+border : 2px solid black ;
+</string>
+    </property>
+    <property name="text">
+     <string>exit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="setting">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : black ;
+background-color :rgb(161, 0, 0);
+font: 12pt &quot;Zombie Guts&quot;;
+border-radius : 8px;
+border : 2px solid black ;
+</string>
+    </property>
+    <property name="text">
+     <string>setting</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>-90</x>
+      <y>-30</y>
+      <width>781</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ax/the-joker-joaquin-phoenix-dark_1570395365.jpg</normaloff>../ax/the-joker-joaquin-phoenix-dark_1570395365.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>600</width>
+      <height>550</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>pushButton</zorder>
+   <zorder>Game</zorder>
+   <zorder>exite</zorder>
+   <zorder>setting</zorder>
+  </widget>
+  <action name="actionWellcome">
+   <property name="text">
+    <string>wellcome</string>
+   </property>
+  </action>
+  <action name="actionWild_west_saga">
+   <property name="text">
+    <string>wild west saga</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
